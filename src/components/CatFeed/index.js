@@ -1,12 +1,7 @@
-import React from 'react'
-import { MdKeyboardArrowRight } from 'react-icons/md'
+import React from 'react';
+import { MdKeyboardArrowRight } from 'react-icons/md';
 
-import {
-  CatFeed,
-  SectionHeader,
-  FeedList,
-  FeedItem,
-} from '../shared';
+import { CatFeed, SectionHeader, FeedList, FeedItem } from '../shared';
 
 export default function CatFeedComponent() {
   return (
@@ -27,5 +22,5 @@ export default function CatFeedComponent() {
         </FeedItem>
       </FeedList>
     </CatFeed>
-  )
+  );
 }

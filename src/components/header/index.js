@@ -16,7 +16,7 @@ export default function header() {
       <div>
         <input type="text" placeholder="Search cats" />
 
-        <button>
+        <button type="button">
           <MdAddCircleOutline size={20} color="#5452F6" />
           add new cat
         </button>

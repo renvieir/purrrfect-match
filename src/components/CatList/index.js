@@ -7,9 +7,9 @@ import {
   CatImg,
   CatName,
   SectionHeader,
-} from '../../components/shared';
+} from '../shared';
 
-export default function CatListComponent ({ images }) {
+export default function CatListComponent({ images }) {
   return (
     <CatListContainer>
       <SectionHeader>Cat List</SectionHeader>
